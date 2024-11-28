@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 出力するJavaScriptのバージョン
+    "module": "commonjs", // モジュールシステム
+    "rootDir": "./src", // ソースファイルのルートディレクトリ
+    "outDir": "./dist", // コンパイルされたファイルの出力先
+    "strict": true, // 厳格な型チェックを有効化
+    "esModuleInterop": true, // ESモジュールとの互換性
+    "forceConsistentCasingInFileNames": true, // ファイル名の大文字・小文字の区別を強制
+    "skipLibCheck": true // ライブラリの型チェックをスキップ
+  },
+  "include": ["src/**/*"] // コンパイル対象のファイル
+}
